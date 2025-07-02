@@ -32,3 +32,5 @@ monosharp-icons provides a set of four essential icons hand-coded as lightweight
 
 ## Author
 Andrew Hueston
+## Live Demo
+[https://andhues.github.io/monosharp-icons](https://andhues.github.io/monosharp-icons/)
