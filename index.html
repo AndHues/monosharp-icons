@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>MonoSharp Icons Demo</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.2/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body class="min-h-screen bg-gray-100 flex items-center justify-center p-6">
+  <main class="grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-xl w-full">
+    <!-- Arrow Left -->
+    <div class="flex flex-col items-center">
+      <div class="w-12 h-12 text-gray-800">
+        <!-- inline include or <img src="arrow-left.svg" alt="Arrow Left Icon" /> -->
+        <object type="image/svg+xml" data="arrow-left.svg" class="w-full h-full"></object>
+      </div>
+      <span class="mt-2 text-sm">Arrow Left</span>
+    </div>
+    <!-- Check Circle -->
+    <div class="flex flex-col items-center">
+      <div class="w-12 h-12 text-green-600">
+        <object type="image/svg+xml" data="check-circle.svg" class="w-full h-full"></object>
+      </div>
+      <span class="mt-2 text-sm">Check Circle</span>
+    </div>
+    <!-- Eye -->
+    <div class="flex flex-col items-center">
+      <div class="w-12 h-12 text-blue-600">
+        <object type="image/svg+xml" data="eye.svg" class="w-full h-full"></object>
+      </div>
+      <span class="mt-2 text-sm">Eye</span>
+    </div>
+    <!-- Trash -->
+    <div class="flex flex-col items-center">
+      <div class="w-12 h-12 text-red-600">
+        <object type="image/svg+xml" data="trash.svg" class="w-full h-full"></object>
+      </div>
+      <span class="mt-2 text-sm">Trash</span>
+    </div>
+  </main>
+</body>
+</html>
